@@ -3,3 +3,10 @@
 body {
   font-family: Inter
 }
+
+.heading h1 {
+  font-weight: 900
+  background-image: linear-gradient(blue, purple);
+  color: transparent;
+  background-clip: text;
+}
