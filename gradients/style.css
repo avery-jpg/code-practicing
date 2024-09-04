@@ -2,12 +2,12 @@
 
 body {
   font-family: Inter;
-  background-color: #243447;
+  background-color: #123456;
 }
 
 .heading h1 {
   font-weight: 900
-  background-image: linear-gradient(blue, purple);
-  color: transparent;
-  background-clip: text;
+  background: linear-gradient(90deg, #0041C2, #8A00C2); /* Define your gradient here */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
