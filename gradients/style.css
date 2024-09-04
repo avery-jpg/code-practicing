@@ -16,7 +16,14 @@
         }
 
         .h1back {
-            background: linear-gradient(90deg, #0041C2, #8A00C2); /* Gradient background */
-            border-radius: 100px;
-            display: inline-block;
+                background: linear-gradient(90deg, #0041C2, #8A00C2); /* Gradient background */
+                border-radius: 100px;
+                display: inline-block;
+        }
+        a {
+                text-decoration: none;
+        }
+        a:hover {
+                text-decoration: outline;
+                transform: scale(1.05);
         }
