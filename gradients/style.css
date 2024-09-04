@@ -1,13 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-body {
-  font-family: Inter;
-  background-color: #123456;
-}
+        body {
+            font-family: Inter, sans-serif;
+            color: #FFFFFF;
+            background-color: #123456;
+            margin: 0;
+            padding: 0;
+        }
 
-.heading h1 {
-  font-weight: 900
-  background: linear-gradient(90deg, #0041C2, #8A00C2); /* Define your gradient here */
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+        h1 {
+            font-weight: 900;
+            margin: 0; /* Remove default margin */
+            padding: 5px 30px; /* Add padding for better spacing */
+            text-align: center;
+        }
+
+        .h1back {
+            background: linear-gradient(90deg, #0041C2, #8A00C2); /* Gradient background */
+            border-radius: 100px;
+            display: inline-block;
+        }
